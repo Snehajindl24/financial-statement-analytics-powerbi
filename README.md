@@ -35,6 +35,13 @@ https://github.com/Snehajindl24/financial-statement-analytics-powerbi
 ## Key insight
 Sector averages hide firm-level quality gaps. In IT, TCS and Infosys clear strong margins with a Financial Health Score of 100, while Wipro lags (~8.6% net margin, score 70). Nestlé India posts outsized ROE (~61%) on low leverage — efficiency over scale. SBI carries a Moderate risk flag (score 55) from higher D/E, even though Banking prints the strongest sector net margins.
 
+## Financial Health Score Methodology
+Composite score (0–100) built from four equally-weighted components (25 pts each):
+- Net Profit Margin: >15% = 25, 5–15% = 15, <5% = 5
+- ROE: >15% = 25, 8–15% = 15, <8% = 5
+- Debt-to-Equity: <0.5 = 25, 0.5–1.5 = 15, >1.5 = 5
+- Free Cash Flow: positive = 25, negative = 0
+
 ## Screenshots
 ![Executive Overview](screenshot/01_executive_overview.png)
 ![Trend Analysis](screenshot/02_trend_analysis.png)
